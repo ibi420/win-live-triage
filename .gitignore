@@ -1,0 +1,26 @@
+# Output triage reports and evidence dumps
+win_live_triage_*.txt
+win_live_triage_*.md
+win_live_triage_iocs_*.csv
+network_forensics_deep_*.txt
+network_forensics_deep_*.md
+network_forensics_iocs_*.csv
+network_forensics_report_*.txt
+
+# Ignore arbitrary generated scan outputs
+*.csv
+*.log
+
+# Windows thumbnail and system cache
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS / Linux metadata
+.DS_Store
+
+# IDE and Editor directories
+.vscode/
+.idea/
+*.swp
+*~
